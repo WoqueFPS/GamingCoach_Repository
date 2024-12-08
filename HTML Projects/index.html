@@ -3,93 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valorant Vault</title>
+    <title>Valorant Coaching - Your Path to Radiant</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Welcome to Valorant Vault</h1>
-            <p>A solo project from the an ex radiant player to help you reach new heights.</p>
-        </header>
-        
-        <nav>
+    <header class="site-header">
+        <div class="logo">
+            <h1>Valorant Vault</h1>
+        </div>
+        <nav class="main-nav">
             <ul>
-                <li><a href="Aim.html" target="_blank">Aim</a></li>
-                <li><a href="Mental.html" target="_blank">Mental</a></li>
-                <li><a href="Movement.html" target="_blank">Movement</a></li>
-                <li><a href="Contact.html" target="_blank">Contact</a></li>
+                <li><a href="#coaching">Coaching</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    </header>
 
-<h2>VALORANT Patch Notes 9.09</h2>
-<p>Bug fixes to various Agents, such as Gekko, Fade, and Deadlock, and more.</p>
-<p>Hi folks! It's Ash, and I'm here to talk about Patch 9.09.</p>
-<p>We fixed various bugs with Agents, such as Deadlock's ANNIHILATION sometimes getting stuck at ledges, players being able to outrun Fade’s Prowler, and now Gekko’s Thrash won’t have as much difficulty making some small jumps.</p>
-<p>There's more to come with these year-end patches, so stay tuned!</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Boost Your Gameplay</h1>
+            <p>Join our coaching program and reach your dream rank in Valorant.</p>
+            <button class="cta">
+                <a href="#coaching">View Coaching Options</a>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </button>
+        </div>
+    </section>
 
-<h2>ALL PLATFORMS</h2>
+    <section id="coaching" class="coaching-options">
+        <h2>Coaching Packages</h2>
+        <div class="packages">
+            <div class="package">
+                <h3>Basic Package</h3>
+                <p>1-hour coaching session.</p>
+                <p class="price">$20/session</p>
+                <button class="cta">
+                    <a href="basic.html" target="_blank">Get Started</a>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <div class="package">
+                <h3>Intermediate Package</h3>
+                <p>3-hour bundle with in-depth analysis.</p>
+                <p class="price">$50/bundle</p>
+                <button class="cta">
+                    <a href="intermediate.html" target="_blank">Get Started</a>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <div class="package">
+                <h3>Pro Package</h3>
+                <p>5-hour bundle with personalized training.</p>
+                <p class="price">$80/bundle</p>
+                <button class="cta">
+                    <a href="pro.html" target="_blank">Get Started</a>
+                    <svg width="15px" height="10px" viewBox="0 0 13 10">
+                        <path d="M1,5 L11,5"></path>
+                        <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
 
-<h3>BUG FIXES</h3>
+    <section id="reviews" class="reviews">
+        <h2>What Players Say</h2>
+        <div class="review">
+            <p>"Incredible coaching experience! My aim and game sense improved drastically."</p>
+            <cite>- Silver to Diamond Player</cite>
+        </div>
+        <div class="review">
+            <p>"Professional and insightful coaching. Highly recommend to anyone looking to climb."</p>
+            <cite>- Dedicated Gamer</cite>
+        </div>
+    </section>
 
-<h4>General</h4>
-<ul>
-    <li>Fixed a bug where the locking in animation in the Agent Select would not play immediately when insta-locking.</li>
-    <li>Fixed a bug where you would see a blank screen as a tournament coach during Agent Select.</li>
-</ul>
+    <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="question">
+            <h3>How do the coaching sessions work?</h3>
+            <p>Sessions are conducted via Discord with live gameplay analysis and feedback.</p>
+        </div>
+        <div class="question">
+            <h3>What rank is required to join?</h3>
+            <p>Players of all skill levels are welcome!</p>
+        </div>
+    </section>
 
-<h4>Agents</h4>
-<ul>
-    <li>Fixed a bug where Yoru would hold the Nocturnum scythe incorrectly after using Dimensional Drift.</li>
-    <li>Fixed a bug where Gekko's Thrash had difficulty making some small jumps. Thrash should now jump more similarly to a player.</li>
-    <li>Fixed a bug where players pulled by Deadlock's ANNIHILATION would sometimes get stuck at the top of ledges.</li>
-    <li>Fixed a bug where players could outrun Fade's Prowler during its Bite. Prowlers should now continue to track its target during the Bite unless the target teleports outside its line of sight.</li>
-    <li>Fixed a bug where Astra would not receive the alert sound effect when being watched by Cypher's Spycam.</li>
-    <li>Fixed a bug where Killjoy's Turret would not display the deactivation range on the minimap after switching between her Turret and other abilities or weapons.</li>
-    <li>Fixed a bug where KAY/O with NULL/cmd active could be picked up by Yoru during Dimensional Drift.</li>
-</ul>
-
-<h4>Maps</h4>
-<ul>
-    <li><strong>Abyss:</strong> Fixed a bug that allowed the breakable doors in mid to be destroyed when shot from a certain angle.</li>
-</ul>
-
-<h2>PC</h2>
-
-<h3>PREMIER UPDATES</h3>
-<ul>
-    <li>Updated dropdowns on the standings tab to include Invite division in the division list for all zones. Selecting an Invite division to view will change your zone dropdown to the appropriate zone.</li>
-</ul>
-
-<h3>BUG FIXES</h3>
-
-<h4>General</h4>
-<ul>
-    <li>Fixed an issue where you could load into Agent Select early by leaving your party as the “Match Found” popup appeared.</li>
-    <li>Removed an exploit that resulted in a stretched FOV when using windowed-mode at a 4:3 resolution.</li>
-</ul>
-
-<h4>Premier</h4>
-<ul>
-    <li>Fixed an issue where the Competitor Crest title was not displayed on the Premier career page after earning that Crest.</li>
-</ul>
-
-<h2>CONSOLE</h2>
-
-<h3>GENERAL UPDATES</h3>
-<ul>
-    <li>Buttons that behave like radio buttons now look like radio buttons (instead of checkboxes).</li>
-</ul>
-
-<h3>BUG FIXES</h3>
-
-<h4>Social</h4>
-<ul>
-    <li>Fixed a bug where if you have a long console block list, you would sometimes fail to join voice chat.</li>
-    <li>Fixed a bug where you could sometimes send a friend request to a player you had blocked.</li>
-    <li>Fixed a bug where sending a friend request to a player in the console-friends tab sometimes wouldn't work.</li>
-</ul>
-
-    <script></script>
+    <footer id="contact" class="footer">
+        <h2>Contact Us</h2>
+        <p>Email: support@valorantvault.com</p>
+        <ul class="social-links">
+            <li><a href="https://twitter.com/woquefps" target="_blank">Twitter</a></li>
+            <li><a href="https://twitch.tv/woquefps" target="_blank">Twitch</a></li>
+            <li><a href="https://discord.com/woquefps" target="_blank">Discord</a></li>
+        </ul>
+        <p>&copy; 2024 Valorant Vault. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
+
