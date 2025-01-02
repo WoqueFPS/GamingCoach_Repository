@@ -1,9 +1,9 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #111;
     color: #fff;
-    background-color: #0f0f0f;
 }
 
 .site-header {
@@ -141,15 +141,6 @@ gekopieerde code van uiverse
     transform: scale(0.95);
 }
 
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #111;
-    color: #fff;
-}
-
 header {
     background-color: #1f1f1f;
     padding: 20px;
@@ -217,5 +208,3 @@ footer p {
     margin: 0;
     font-size: 1em;
 }
-
-
